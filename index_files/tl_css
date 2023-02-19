@@ -1,0 +1,56 @@
+
+
+section {display:block;}
+
+.title_text { padding: 0 10px; margin: 0; font-weight: 900; letter-spacing: 2px; font-size: 2.3rem;}
+.subtitle { padding: 0 12px; margin: 0; line-height: 1.5; color: #999999; font-weight: bolder; font-size: 0.8rem;}
+
+/*sidemenu線上客服*/
+#menu_ul>li:nth-child(2),#menu_ul>li:nth-child(2) { display:none;}
+@media (max-width: 992px){
+#menu_ul li:nth-child(2), #menu_ul>li:nth-child(3){ display:block;}
+.side_menu_ul>li:nth-child(2) a {color: #ff9b00;}
+.side_menu_ul>li:nth-child(2) a:before { font-family: FontAwesome; content: '\f075'; padding: 0 10px; word-break:normal; }
+}
+/* //sidemenu線上客服*/
+
+@media (max-width: 768px){
+#top_banner{ margin-top:100px; margin-bottom: 20px;}
+.icon_block { padding:20px 0;}
+.subtitle, .title_line:after { display: none;}
+header.stick { margin-bottom: 50px;}
+}
+
+/*報名成功頁勿動*/
+h3{ font-size: 31px; }
+.global_article_title { max-width: 1250px; }
+
+/*報名步驟高度*/
+.step .col_one_third { height: 340px; }
+@media (max-width: 500px){ 
+.step .col_one_third { height: 320px;  }
+ }
+
+/*活動注意事項外框*/
+.info_massage_ul li {   font-size: 15px;  color: #525252;  }
+
+
+/*注意事項_手機版*/
+@media (max-width: 992px){
+.info_massage {  padding: 15px;   }
+}
+
+
+/*熱賣商品_手機版*/
+@media (max-width: 768px){
+.product_title .mobilehint {  display: block;  margin-bottom: -13px;  font-size: 1.3rem;  margin-top: -10px;  letter-spacing: 2px;  font-weight: bold; }
+label {   font-size: 1rem;  letter-spacing: 1px; }
+}
+
+
+/*.container.big {   width: 1400px; }*/
+
+#menu_ul li {    float: left;    font-size: 19px;    margin: 0px 15px;    text-align: center; }
+#menu_ul a {    padding: 13px 0px; }
+#menu_ul > li > ul > li { width: 170px; }
+#menu_ul > li > ul > li > a { width: 170px; }
